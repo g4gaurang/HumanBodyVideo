@@ -1,0 +1,8 @@
+# Install torch first from the CPU index to avoid a large CUDA download:
+#   pip install torch==2.14.0 --index-url https://download.pytorch.org/whl/cpu
+kokoro==0.9.4
+misaki==0.9.4
+numpy==2.5.3
+pycairo==1.29.1
+scipy==1.18.1
+soundfile==0.14.0
