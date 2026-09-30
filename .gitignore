@@ -1,0 +1,10 @@
+# Rendered video and temporary render files (the MP4 is published as a GitHub Release asset)
+output/
+build/
+*.mp4
+*.wav
+
+# Python
+.venv/
+__pycache__/
+*.pyc
