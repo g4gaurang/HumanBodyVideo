@@ -240,6 +240,7 @@ def recap_cues(S):
         "digestion": S.ls("cap_5"),
         "kidneys": S.word("cap_5", "kidneys"),
         "question": S.ls("cap_6") - 0.4,
+        "question_card": S.le("cap_6") + 0.3,
     }
 
 

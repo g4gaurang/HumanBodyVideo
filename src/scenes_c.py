@@ -432,7 +432,7 @@ def recap(ctx, t, S, c):
         G.draw_text(ctx, "One catch, a whole team", 1235, 95, 48, G.hexc("E0702A"), alpha=ramp(t, c["cards"]))
     bedroom(ctx, t, c, qa)
     if qa > 0:
-        pa = ramp(t, c["question"] + 0.6, 0.6)
+        pa = ramp(t, c["question_card"], 0.6)
         G.panel(ctx, 160, 40, 1600, 64 + 2 * 64, pa, fill=G.CREAM, r=40)
         G.draw_text(ctx, "Something to think about:", 960, 110, 44, G.hexc("E0702A"), alpha=pa)
         G.draw_text(ctx, "When you're asleep, what happens to your breathing and heartbeat? Why?",

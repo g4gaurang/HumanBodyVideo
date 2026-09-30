@@ -304,7 +304,7 @@ def events():
     hp = lambda t: TL.heart_phase(t, c)  # noqa: E731
     beat = sfx_heartbeat()
     for t in phase_crossings(hp, 0.0, S["heart"].dur - 0.3):
-        add("heart", t, beat, -6)
+        add("heart", t, beat, -13)
     for k in ("heart", "vessels"):
         add("heart", c[k], sfx_pop(620), -16)
     c = C["digestion"]
